@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+logs/
+*.log
+*.tmp
+
+# Minecraft Dev Specific
+run/
+run_client/
+run_server/
+mods/
+config/
+saves/
