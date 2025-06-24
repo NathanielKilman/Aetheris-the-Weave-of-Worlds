@@ -1,0 +1,35 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '5.1.16'
+}
+
+group = 'com.eatallme.aetheris'
+version = '1.0.0'
+archivesBaseName = 'aetheris'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+minecraft {
+    mappings channel: 'official', version: '1.16.5'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                aetheris {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        name = 'CurseMaven'
+        url = "https://cursemaven.com"
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
+}

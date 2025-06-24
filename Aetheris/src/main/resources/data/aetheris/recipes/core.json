@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBL",
+    "LDL",
+    "LBL"
+  ],
+  "key": {
+    "L": { "item": "minecraft:lava_bucket" },
+    "B": { "item": "minecraft:blaze_rod" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": {
+    "item": "aetheris:core"
+  }
+}

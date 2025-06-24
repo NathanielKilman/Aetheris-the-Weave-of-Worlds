@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="aetheris"
+version="1.0.0"
+displayName="Aetheris: The Weave of Worlds"
+description='''
+Bridges multiple anime-inspired magic mods into a shared energy system called Aetheris. 
+Includes unique spell handling, progression preservation, and fusion mechanics.
+'''
